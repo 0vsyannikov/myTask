@@ -1,0 +1,10 @@
+C:\Users\PC\IdeaProjects\myTask\src\main\java\org\task\App.java
+C:\Users\PC\IdeaProjects\myTask\src\main\java\org\task\mapper\NoteMapper.java
+C:\Users\PC\IdeaProjects\myTask\src\main\java\org\task\repository\NoteRepository.java
+C:\Users\PC\IdeaProjects\myTask\src\main\java\org\task\configuration\NoteConfiguration.java
+C:\Users\PC\IdeaProjects\myTask\src\main\java\org\task\controller\NotesController.java
+C:\Users\PC\IdeaProjects\myTask\src\main\java\org\task\entity\NoteEntity.java
+C:\Users\PC\IdeaProjects\myTask\src\main\java\org\task\service\NoteService.java
+C:\Users\PC\IdeaProjects\myTask\src\main\java\org\task\controlleradvice\DefaultAdvice.java
+C:\Users\PC\IdeaProjects\myTask\src\main\java\org\task\service\impl\NoteServiceImpl.java
+C:\Users\PC\IdeaProjects\myTask\src\main\java\org\task\domain\Note.java

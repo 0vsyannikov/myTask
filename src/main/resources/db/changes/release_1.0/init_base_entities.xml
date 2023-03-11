@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+		http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <changeSet id="init_road-map-entity" author="Ovsyannikov-IA" failOnError="false">
+        <preConditions onFail="MARK_RAN">
+            <not>
+                <tableExists tableName="T_NOTE"/>
+            </not>
+        </preConditions>
+
+        <createTable tableName="T_NOTE">
+            <column name="C_ID" type="NUMBER">
+                <constraints nullable="false" primaryKey="true"/>
+            </column>
+            <column name="C_TEXT" type="TEXT"/>
+        </createTable>
+
+        <createSequence startValue="1" incrementBy="1" sequenceName="SEQUANCE_NOTES"/>
+
+    </changeSet>
+</databaseChangeLog>
